@@ -1,0 +1,7 @@
+requests
+fake-useragent
+wikipedia
+Wikipedia-API
+beautifulsoup4
+lxml
+

@@ -1,0 +1,14 @@
+[Unit]
+Description=WikiDaemon
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 /home/path/wiki_daemon.py
+Restart=always
+RestartSec=5min
+ExecStop=/home/path/wiki_daemon.py -stop
+ExecReload=/home/path/wiki_daemon.py -restart
+ExecStatus=/home/path/wiki_daemon.py -status
+
+[Install]
+WantedBy=default.target
