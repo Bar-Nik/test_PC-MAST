@@ -7,10 +7,11 @@
 wiki_daemon.py - исполняемый файл
 ### config.py 
 В файл config.py необходимо ввести данные:
-- Почта отправителя: EMAIL_S = "XXXXXXXXXXXXXX@gmail.com"      
+- Почта отправителя: EMAIL_S = "XXXXXXXXXXXXXX@gmail.com"
+  <br>(настройка почты отправителя https://www.youtube.com/watch?v=RyoTETtvoFQ&t=121s)      
 - Пароль: EMAIL_PASSWORD = 'XXXXXXXXXXXXXXXX'      
 - Почта получателя: EMAIL_R = "XXXXXXXXXXXXXX@XXXX.XXX"
-  (в настройках почты отправителя надо произвести настройки https://www.youtube.com/watch?v=RyoTETtvoFQ&t=121s)
+  
 ### requirements.txt
 В файле requirements.txt содержится список используемых библиотек необходимых для работы исполняемого файла wiki_daemon.py
 ### wiki_daemon.service
